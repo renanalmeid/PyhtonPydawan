@@ -1,3 +1,3 @@
 # PythonPydawan
 
-Repository to practice Pyhton techniques
+Repository to practice Python techniques
