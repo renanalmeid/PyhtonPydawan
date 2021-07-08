@@ -53,4 +53,30 @@ print(long_list_len)
 print(range_list_length)
 
 ###Slicing Lists I
+#func[start:end]
+#start - onde começa 
+#end onde o corte acontece mas para antes
+suitcase = ["shirt", "shirt", "pants", "pants", "pajamas", "books"]
+
+beginning = suitcase[0:2]
+
+print(beginning)
+
+middle = suitcase[2:4]
+print(middle)
+
+###Slicing Lists II
+#func[:n]  -> pega os elementos até n
+#fun[-n:] -> inverte ordem dos que pega 
+#fun[:-n] --> todos exceto os n ultimos 
+suitcase = ["shirt", "shirt", "pants", "pants", "pajamas", "books"]
+
+# Your code below: 
+
+last_two_elements = suitcase[-2:]
+print(last_two_elements)
+
+slice_off_last_three = suitcase[:-3]
+print(slice_off_last_three)
+
 
