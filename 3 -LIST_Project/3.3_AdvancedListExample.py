@@ -90,6 +90,36 @@ jake_votes = votes.count("Jake")
 print(jake_votes)
 
 ###Sorting List I
-#method .sort
+#method .sort()
+#pra inverter a ordem o argumento deve ser (reverse=True)
+#Nao retorna valor
+
+# Checkpoint 1 & 2
+addresses = ["221 B Baker St.", "42 Wallaby Way", "12 Grimmauld Place", "742 Evergreen Terrace", "1600 Pennsylvania Ave", "10 Downing St."]
+
+addresses.sort()
+print(addresses)
+
+# Checkpoint 3
+names = ["Ron", "Hermione", "Harry", "Albus", "Sirius"]
+names.sort()
+print(names)
 
 
+# Checkpoint 4 & 5
+cities = ["London", "Paris", "Rome", "Los Angeles", "New York"]
+sorted_cities = cities.sort(reverse=True)
+print(sorted_cities)
+
+###Sorting Lists II
+#built in function sorted()
+#It comes before a list, instead of after as all built-in functions do.
+#It generates a new list rather than modifying the one that already exists.
+
+games = ["Portal", "Minecraft", "Pacman", "Tetris", "The Sims", "Pokemon"]
+
+# Your code below:
+games_sorted = sorted(games)
+
+print(games_sorted)
+print(games)
