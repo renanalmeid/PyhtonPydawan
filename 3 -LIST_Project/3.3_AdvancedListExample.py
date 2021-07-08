@@ -80,3 +80,16 @@ slice_off_last_three = suitcase[:-3]
 print(slice_off_last_three)
 
 
+###Counting a List
+#method .count()
+#.count retorna um valor
+votes = ["Jake", "Jake", "Laurie", "Laurie", "Laurie", "Jake", "Jake", "Jake", "Laurie", "Cassie", "Cassie", "Jake", "Jake", "Cassie", "Laurie", "Cassie", "Jake", "Jake", "Cassie", "Laurie"]
+
+# Your code below: 
+jake_votes = votes.count("Jake")
+print(jake_votes)
+
+###Sorting List I
+#method .sort
+
+
