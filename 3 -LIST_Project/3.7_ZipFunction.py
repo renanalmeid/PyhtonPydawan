@@ -3,7 +3,7 @@
 
 name = ["Jenny", "Alexus", "Sam", "Grace"]
 heights = [61, 70, 67, 65]
-names_and_heights = zip(names, heights)
+names_and_heights = zip(name, heights)
 
 print(names_and_heights)
 #Would output:
