@@ -63,3 +63,36 @@ numbers_b = random.sample(range(1000), 12)
 plt.plot(numbers_a,numbers_b)
 
 plt.show()
+
+
+#############Modules Python Decimals
+from decimal import Decimal
+
+# Fix the floating point math below:
+two_decimal_points = Decimal('0.2') + Decimal('0.69')
+print(two_decimal_points)
+
+four_decimal_points = Decimal('0.53') * Decimal('0.65')
+print(four_decimal_points)
+
+########## Modules Python Files and Scope
+#If a variable is defined inside of a function, it will not be accessible outside of the function
+
+#Scope also applies to classes and to the files you are working within.
+
+#Well, files are actually modules, so you can give a file access to another file’s content using that glorious import statement.
+
+from library import always_three as lala
+
+
+# Call your function below:
+lala()
+print(lala())
+
+
+##outro file 
+
+# Add your always_three() function below:
+
+def always_three():
+  return 3
