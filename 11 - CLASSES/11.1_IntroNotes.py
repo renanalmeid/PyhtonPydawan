@@ -122,14 +122,17 @@ class Circle:
   pi = 3.14
   def area(self, radius):
     return self.pi * radius ** 2
+  def __repr__(self):
+    return "Circle with radius {radius}".format(radius=self.radius)
+  
+  
+medium_pizza = Circle(12)
+teaching_table = Circle(36)
+round_room = Circle(11460)
 
-circle = Circle()
-pizza_area = circle.area(12/2)
-teaching_table_area = circle.area(36/2)
-round_room_area = circle.area(11460/2)
-
-print(pizza_area)
-
+print(medium_pizza)
+print(teaching_table)
+print(round_room)
 
 
 
